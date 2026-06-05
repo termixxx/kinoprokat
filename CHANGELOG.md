@@ -9,4 +9,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.0.0] - 2026-06-06
 ### Added
 - [movie-management] kinoprokat: добавить сущность фильм 
-- [movie-management] kinoprokat: добавить сущность пользователь 
+- [movie-management] kinoprokat: добавить сущность пользователь
+### Fixed
+- [movie-create-dto] kinoprokat: поправить MovieCreateDto

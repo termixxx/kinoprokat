@@ -3,7 +3,7 @@ package ru.vsu.kinoprokat.movie;
 import lombok.Data;
 
 @Data
-public class MovieDto {
+public class MovieCreateDto {
 
     private String title;
 
