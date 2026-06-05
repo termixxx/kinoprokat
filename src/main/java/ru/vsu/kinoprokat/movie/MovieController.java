@@ -18,7 +18,7 @@ public class MovieController {
     }
 
     @PostMapping
-    public MovieEntity create(@RequestBody MovieEntity movie) {
-        return movieService.save(movie);
+    public MovieEntity create(@RequestBody MovieDto movie) {
+        return movieService.save(new MovieEntity(null, movie.getTitle(), movie.getTitle(), movie.getReleaseYear()));
     }
 }
