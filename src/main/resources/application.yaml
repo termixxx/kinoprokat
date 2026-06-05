@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: kinoprokat
+  datasource:
+    url: jdbc:h2:mem:testdb
+
+  h2:
+    console:
+      enabled: true
+
+  jpa:
+    hibernate:
+      ddl-auto: update
